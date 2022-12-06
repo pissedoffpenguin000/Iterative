@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Iterative Design</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="iterative-design.css">
+    <meta name="description" content="iterative design writeup">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans:400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Mono:400,700">
+</head>
+<div>
+
+<body>
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="https://pissedoffpenguin000.github.io/Iterative/">Daylight Redesign</a></li>
+        <li><a href="https://pissedoffpenguin000.github.io/redesign/">Berkshire Hathaway Redesign</a></li>
+        <li><a href="https://pissedoffpenguin000.github.io/cs1300_personas_and_storyboarding/">Personas</a></li>
+        <li><a href="https://pissedoffpenguin000.github.io/uiuxdevelopment/">Development</a></li>
+
+      </ul>
+    <img class="full-width" src="./assets/Header.png" alt="iterative-design-hero">
+
+    <!-- Overview -->
+    <div class="content" id="overview">
+        <h2 class="pb-3">Overview</h2>
+        <p>Internet Friends is a startup that is building Daylight, an app for making
+            photo-only group chats. Our group designed an interactive application for
+            this startup from scratch using only its concept. This involved working through
+            a full iterative design process, from sketching ideas of the interface to
+            creating an interactive, high-fidelity prototype to conducting user testing
+            on a final, revised prototype. We then contacted the startup to share our
+            mockup with them.
+        </p>
+    </div>
+
+    <!-- Identifying Usability Problems -->
+    <div class="content" id="part1">
+        <h2 class="pb-3">Sketching & Wireframing</h2>
+        <h3 class="pb-2">PRE-DESIGN THINKING</h3>
+        <p>Before we dove into designing, we started by giving the concept a little more
+            context and fleshed out some of the core functionalities and user groups. </p>
+
+        <p class="pb-3">As a social app for creating photo-only group chats, Daylight allows users to stay in
+            touch with friends through a constant flow of images, and if you’re in the same
+            place as them, it makes sharing images even easier. Our group chose to create a
+            mobile app interface for this product, as the mobile format facilitates easy
+            photo-taking and sharing.
+        </p>
+
+        <div class=pb-3>
+            <h5 class="mb-3"><b>Target User Groups</b></h5>
+            <p>Long Distance Friends</p>
+            <ul>
+                <li>This group consists of friends who might be far from eachother and want to keep in touch.</li>
+                <li>The app would help this user group keep each other updated with their daily lives using a photo
+                    group chat.</li>
+            </ul>
+            <p>Friends Hanging Out</p>
+            <ul>
+                <li>This group consists of friends who might have a hang-out together and want to have one place to
+                    share their pictures. </li>
+
+                <li>The app is used to provide a record of that time and an easy way to
+                    access all the images taken together.</li>
+            </ul>
+        </div>
+
+        <!--<div class="container" style="display: flex;">
+                    <div style="width: 50%; padding: 0px 20px 0px 20px;">
+                        <p><b>Long Distance Friends</b></p>
+                        <ul>
+                            <li>This group consists of friends who might be far from eachother and want to keep in touch.</li> 
+                            <li>The app would help this user group keep each other updated with their daily lives using a photo group chat.</li>
+                        </ul>
+                    </div>
+                    <div style="width: 50%; padding: 0px 20px 0px 20px;">
+                        <p><b>Friends Hanging Out</b></p>
+                        <ul>
+                            <li>This group consists of friends who might have a hang-out together and want to have one place to 
+                                share their pictures. </li>
+                            
+                            <li>The app is used to provide a record of that time and an easy way to 
+                                access all the images taken together.</li>
+                        </ul>
+                    </div>
+                </div>
+                -->
+        <h3 class="pb-2">SKETCHING</h3>
+        <p>Each of our four group members then started brainstorming solutions by
+            sketching out low-fidelity wireframes, aiming to reflect as wide a variety
+            of screens and layouts as possible to get ideas flowing and to end with four
+            different possible designs for the app. Each of these designs made sure to
+            show the key functionalities of the app. These sketches were vital in
+            visualizing our ideas, weighing the benefits of alternative designs, and
+            avoiding premature decision-making. </p>
+        <br>
+
+        <div class=mb-5><img class="img" src="./assets/sketches.png" alt="First sketch"></div>
+
+
+        <h3 class="pb-3">COMBINING IDEAS INTO WIREFRAME</h3>
+        <p>After sketching, we regrouped and discussed whether our sketches
+            were effective at solving the problem and diverse or creative.
+            We then combined our ideas into a single wireframe that we created in Figma.
+        </p>
+
+        <img class="img" src="./assets/wireframes.png" alt="Initial Wireframe">
+
+        <h5 class="mb-3 pt-5">Key Design Decisions</h5>
+        <ul class="list">
+            <li>Chat is more like a “feed” than a typical chat format with messages back
+                and forth</li>
+            <li>User can take multiple photos at once before sending</li>
+            <li>Users can preview and select the photos they’ve taken before sending them</li>
+            <li>Users are not able to upload photos from their camera roll to foster
+                spontaneity and capturing/sharing photos “in the moment”</li>
+            <li>Home page gives users opportunities to explore with recent activity and highlights</li>
+            <li>Profile page allows users to see photo history and other personal information</li>
+        </ul>
+    </div>
+
+        <!-- Mockups -->
+
+        <div class="content" id="part2">
+            <h2 class="pb-3">Mockups</h2>
+            <p class = "pb-5">Next, our group created an interactive high-fidelity prototype based on the
+                wireframe we created, making sure to demonstrate all of the key interactions
+                of our app. We then presented our mockup to a larger group who provided us with
+                critique.
+            </p>
+
+            <div class="container mb-5" style="display: flex;">
+                <div style="width: 50%; padding: 0px 20px 0px 20px; margin:auto;">
+                    <img class="image1" src="./assets/initial_mockup1.gif" alt="Initial Wireframe">
+                </div>
+                <div style="width: 50%; padding: 0px 20px 0px 20px;">
+                    <img class="image1" src="./assets/initial_mockup2.gif" alt="Initial Wireframe">
+                </div>
+            </div>
+
+            <h3 class = "pt-3 pb-4">CRITIQUE NOTES</h3>
+
+            <div class="container pb-4" style="display: flex;">
+                <div style="width: 50%; padding: 0px 20px 0px 20px;">
+                    <p><b>Improving the Sign in and Sign up</b></p>
+                    <ul>
+                        <li>Most people who download this app are going to be first-time users,
+                            so make the new user flow as easy as possible.</li>
+                        <li>“Get Started” is confusing - change the wording or make it larger</li>
+                        <li>Existing users sign in smaller under the sign up</li>
+                    </ul>
+                </div>
+                <div style="width: 50%; padding: 0px 20px 0px 20px;">
+                    <p><b>Improve the clarity of sending pictures</b></p>
+                    <ul>
+                        <li>Allow people to send pictures without selecting them</li>
+                        <li>After clicking into gallery and selecting photos, no option to select
+                            which photos they’re affiliated with</li>
+                        <li>We had planned to add these but did not initially incorporate them into our
+                            initial prototype for critique</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" style="display: flex;">
+                <div style="width: 50%; padding: 0px 20px 30px 20px;">
+                    <p><b>Positive Feedback!</b></p>
+                    <ul>
+                        <li>Visual design was nice</li>
+                        <li>Thoughtful use of motion went well with purpose and branding of the app</li>
+                        <li>Thorough error handling</li>
+                    </ul>
+                    
+                </div>
+                <div style="width: 50%; padding: 0px 20px 30px 20px;">
+                    <p><b>Improving the Wording and Messaging</b></p>
+                    <ul>
+                        <li>Confused because feels like “Chats” has the connotation of text messages</li>
+                        <li>Expecting to see text messages mixed in</li>
+                        <li>Find a different word or terminology (Albums?)</li>
+                    </ul>
+                </div>
+            </div>
+            <p>We then incorporated this feedback into our final iteration of the prototype.</p>
+        </div>
+
+        <!-- Final Iterations -->
+        <div class="content">
+            <h2 class = "pb-3">Final Iteration</h2>
+            
+            <div class="container" style="display: flex;">
+                <div style="width: 25%; padding: 0px 20px 30px 20px;">
+                    <p>Signing In & Exploring Pages</p>
+                    <img class="image" src="./assets/final1.gif" alt="Final Prototype Part 1">
+                </div>
+                <div style="width: 25%; padding: 0px 20px 30px 20px;">
+                    <p>Viewing & Adding Friends</p>
+                    <img class="image" src="./assets/final2.gif" alt="Final Prototype Part 2">
+                </div>
+                <div style="width: 25%; padding: 0px 20px 30px 20px;">
+                    <p>Reacting to Photos & Chat Information</p>
+                    <img class="image" src="./assets/final3.gif" alt="Final Prototype Part 3">
+                </div>
+                <div style="width: 25%; padding: 0px 20px 30px 20px;">
+                    <p>Taking & Sending Photos</p>
+                    <img class="image" src="./assets/final4.gif" alt="Final Prototype Part 4">
+                </div>
+            </div>
+
+
+
+            <h3 class="pt-3 pb-3">USER TESTING</h3>
+            <p class = "pb-3">Finally, we conducted usability testing on our final prototype through UserTesting.com,
+                a remote user testing service. Having test users try out our interface is a valuable
+                source of feedback. Below are the links to the user testing videos.
+            </p>
+
+            <div class="container pt-3" style="display: flex;">
+                <div style="width: 33.33%; padding: 0px 20px 30px 20px;">
+                    <a href = "https://drive.google.com/file/d/1Ivb6tZzKCqRVfo43EmD8V8iiuHkDfphB/view?usp=sharing" target = "_blank">User Testing Session 1</a>
+                </div>
+                <div style="width: 33.33%; padding: 0px 20px 30px 20px;">
+                    <a href = "https://drive.google.com/file/d/1ySQl9wzAZBM3lSkipszS-aUMPkdic6qQ/view?usp=sharing" target = "_blank">User Testing Session 2</a>
+                </div>
+                <div style="width: 33.33%; padding: 0px 20px 30px 20px;">
+                    <a href = "https://drive.google.com/file/d/1IiY_KHNv-ZVXbZ21v9vpZzYQJhskjRJT/view?usp=sharing" target = "_blank">User Testing Session 3</a>
+                </div>
+            </div>
+
+            <h5 class = "pt-5 pb-3">The Context</h5>
+            <p>We started by giving them a brief scenario to provide context for what they’ll be
+                doing with the app:
+            </p>
+
+            <div class="pt-5 pb-5">
+                <p class="quote">“You're on a weekend trip in Boston with some friends.
+                    You open this app to take pictures and share them with your group and
+                    see photos that have been sent to you by others.”</p>
+            </div>
+
+            <p class= "pt-4">Then we determined tasks for them to complete on the prototype, focusing on
+                the primary functionalities of the app. The tasks were rated by Success (Yes or No) and a 
+                5 point rating scale (Very difficult to Very easy)
+            </p>
+
+
+            <div class="container pt-5 pb-5" style="display: flex;">
+                <div style="width: 33.33%; padding: 0px 20px 0px 20px;">
+                    <p><b>Subtask 1:</b></p> 
+                    <ul>
+                        <li>Sign in to the app and quickly browse each of the three pages.
+                        </li>
+                    </ul>
+                </div>
+                <div style="width: 33.33%; padding: 0px 20px 0px 20px;">
+                    <p><b>Subtask 2:</b></p>
+                    <ul>
+                        <li>You have unread messages in the "Hiking Trip 2022" group. Check the group and react to
+                            a photo.</li>
+                    </ul>
+                </div>
+                <div style="width: 33.33%; padding: 0px 20px 0px 20px;">
+                    <p><b>Subtask 3: </b></p>
+                    <ul>
+                        <li>Take 5 photos to send to the "boston!" group. When you're done,
+                            feel free to send them all or select a few to send. </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h5 class = "pb-3">Post-test Questionnaire</h5>
+            <p>We provided questions for users to answer at the end of testing.
+                None of them answered these questions, but they did provide general feedback at
+                the end.</p>
+            <ul class = "pb-5">
+                <li> What frustrated or confused you the most about this app?</li>
+                <li>If you had a magic wand, how would you improve this app?</li>
+                <li>What did you like about the app?</li>
+                <li>How likely are you to recommend this app to a friend or colleague
+                    (0=Not at all likely, and 10=Very likely)?</li>
+            </ul>
+
+            <h5 class = "pb-3">Analysis</h5>
+            <p class = "pb-4">The scenario we gave the users was to imagine they were using the app to
+                share photos of a trip with their friends. Overall, all three of the videos
+                were in line with our expectations. They completed the subtasks eventually with
+                few errors and were able to sign in to the app, take photos and share the photos
+                with the different groups. Below is a breakdown of user testing by subtask.
+            </p>
+
+            <h6 class = "pb-2">Task 1: Sign in & Explore!</h6>
+            <p>Some users clicked the sign-up button first, but besides that, there was little
+                trouble signing in. Users had more challenge exploring the three tabs of
+                the app, specifically the home and the personal profile tabs.</p>
+
+            <h6 class = "pt-3 pb-2">Task 2: React to an Image!</h6>
+            <p>This task was completed very easily. All three of the users clicked on the image
+                and successfully reacted to an image. One user noted, however, that
+                they would have preferred for an indication that a user could react to an image. </p>
+
+            <h6 class = "pt-3 pb-2">Task 3: Take & Send Pictures!</h6>
+            <p class = "pb-1">For the last task, users all successfully completed the task of sending images to
+                the group chat. A small difficulty multiple users faced, however, was they tried
+                to click the images directly when prompted to select specific images to send,
+                before realizing that there was a select button later. </p>
+
+            <h5 class = "pt-5 pb-3">Potential Interface Changes</h5>
+            <ul>
+                <li>Add the functionality for users to select images without
+                    clicking the select button when deciding which images to send to the group.</li>
+                <li>Add an indicator to each photo to remind users that they can react to the photo.</li>
+                <li>Change the personal profile page of the user to make it more clear what the
+                    images found in the gallery actually are, by making the wording more specific.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="conclusion">
+            <h2 class = "pb-3">Conclusion</h2>
+            <p>Overall, we learned a lot about the importance of iterative design from this project. 
+                Our final prototype was very different from our initial sketches. 
+                It was a lot more fleshed out, due to all the feedback and corresponding changes 
+                we made from the group critiques and the ui/ux testing. After hearing from the startup,
+                 we look forward to considering their feedback as well.
+            </p>
+        </div>
+
+        <div class="footer ">
+            <br>
+        </div>
+</body>
+</div>
+
+</html>
